@@ -1,0 +1,104 @@
+:root {
+  --white: white;
+  --darkGrey: rgb(63, 62, 62);
+}
+
+body {
+  background: var(--darkGrey);
+  color: var(--white);
+}
+
+.board {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  user-select: none;
+}
+
+.button {
+  background-color: var(--darkGrey);
+  border-right: solid 2px var(--white);
+  border-left: none;
+  border-top: none;
+  font-size: 60px;
+  color: var(--white);
+  height: 90px;
+  width: 90px;
+  margin: -2px;
+}
+
+.play-again-button {
+  background-color: var(--darkGrey);
+  border: solid 2px var(--white);
+  position: absolute;
+  top: 75%;
+  left: 46.7%;
+  user-select: none;
+  color: var(--white);
+  width: 100px;
+}
+
+.play-again-button:hover {
+  background-color: rgb(88, 86, 86);
+}
+
+.msg-box {
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 50px;
+  user-select: none;
+  font-size: 50px;
+  width: 300px;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.p1 {
+  color: var(--white);
+  position: absolute;
+  top: 60%;
+  left: 41%;
+}
+
+.p2 {
+  color: var(--white);
+  position: absolute;
+  top: 60%;
+  left: 53%;
+}
+
+.b3 {
+  border-right: none;
+}
+
+.b4 {
+  border-top: solid 2px var(--white);
+}
+
+.b5 {
+  border-top: solid 2px var(--white);
+}
+
+.b6 {
+  border-top: solid 2px var(--white);
+  border-right: none;
+}
+
+.b7 {
+  border-bottom: none;
+  border-top: solid 2px var(--white);
+}
+
+.b8 {
+  border-bottom: none;
+  border-top: solid 2px var(--white);
+}
+
+.b9 {
+  border-right: none;
+  border-top: solid 2px var(--white);
+  border-bottom: none;
+}
